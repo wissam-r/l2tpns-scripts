@@ -10,8 +10,8 @@ my $UserName ;
 my $Port ;
 my $id =0;
 if( scalar(@ARGV) == 2 ) {
-        $UserName           = $ARGV[0];
-		$Port				= $ARGV[1];
+        $UserName	= $ARGV[0];
+	$Port		= $ARGV[1];
 }else{
         print "ERROR";
         exit();
